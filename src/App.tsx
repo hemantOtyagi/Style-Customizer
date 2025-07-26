@@ -1,7 +1,6 @@
 import FormValuesPreview from "./components/form-preview"
 import HookForm from "./components/hook-form"
 import HookPreviewBox from "./components/hook-preview-box"
-import PreviewBox from "./components/preview-box"
 
 function App() {
 

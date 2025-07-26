@@ -2,7 +2,6 @@ import React, { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import { useStyleContext } from "./style-context";
 import PreviewBox from "./preview-box";
 
-// Utility functions
 const getTextColorForBackground = (hex: string): "black" | "white" => {
   const r = parseInt(hex.substring(1, 3), 16);
   const g = parseInt(hex.substring(3, 5), 16);
@@ -66,7 +65,6 @@ const StyleForm: React.FC = () => {
       >
         <h2 className="text-xl font-semibold">Style Customizer</h2>
 
-        {/* Manual hex input */}
         <label className="block">
           <span className="text-sm font-medium">Enter Hex Color (e.g. #3498db)</span>
           <input
